@@ -270,3 +270,30 @@ html, body { margin: 0; padding: 0; }
     grid-template-columns: 1fr repeat(3, 150px);
   }
 }
+
+/* ============================================
+   LOGIN PAGE LAYOUT
+============================================ */
+
+.login-wrapper {
+  display: flex;
+  align-items: center;      /* vertically align */
+  justify-content: center;  /* center horizontally */
+  gap: 8rem;
+  padding: 3rem 1rem;
+}
+
+.login-image img {
+  width: 250px;
+  max-width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Stack on small screens */
+@media (max-width: 768px) {
+  .login-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+}
