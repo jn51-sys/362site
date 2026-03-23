@@ -7,40 +7,31 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- SITE HEADER -->
   <header class="site-header" role="banner">
     <div class="container header-inner">
-      <!-- Brand / logo -->
-      <a class="brand" href="#" aria-label="Fast Fantasy home">Fast Fantasy</a>
+      <a class="brand" href="index.html" aria-label="Fast Fantasy home">Fast Fantasy</a>
 
-      <!-- Primary navigation -->
       <nav class="main-nav" aria-label="Main navigation">
         <ul>
-          <li><a href="top.html">Top Performers</a></li>
+          <li><a href="top.html" aria-current="page">Top Performers</a></li>
           <li><a href="teams.html">My Teams</a></li>
           <li><a href="league.html">My Leagues</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
 
-      <!-- login CTA -->
       <div class="header-cta">
         <a class="btn btn-outline" href="login.html">Log In</a>
       </div>
     </div>
   </header>
 
-  <!-- MAIN CONTENT -->
   <main>
-    <!-- Top Individual Performances -->
     <section class="performances container" aria-labelledby="individual-heading">
-      <!-- Section heading styled large and bold (like screenshot) -->
-      <h1 id="individual-heading" class="section-title">Top Individual<br/>Performances</h1>
+      <h1 id="individual-heading" class="section-title">Top Individual<br>Performances</h1>
 
-      <!-- Table card: accessible table with caption -->
-      <div class="table-wrap">
-        <table class="perf-table" summary="Top individual player performance metrics">
-    
+      <div class="table-wrap" aria-label="Top individual performances table scroll region">
+        <table class="perf-table">
           <thead>
             <tr>
               <th scope="col">Player</th>
@@ -51,47 +42,44 @@
             </tr>
           </thead>
           <tbody>
-            <!-- Empty rows as in the screenshot; keep structure for dynamic population -->
             <tr>
-  <td>Christian McCaffrey (RB)</td>
-  <td>32.8</td>
-  <td>3</td>
-  <td>187</td>
-  <td>99%</td>
-</tr>
-<tr>
-  <td>Tyreek Hill (WR)</td>
-  <td>28.4</td>
-  <td>2</td>
-  <td>164</td>
-  <td>98%</td>
-</tr>
-<tr>
-  <td>Josh Allen (QB)</td>
-  <td>30.6</td>
-  <td>4</td>
-  <td>312</td>
-  <td>100%</td>
-</tr>
-<tr>
-  <td>Travis Kelce (TE)</td>
-  <td>24.1</td>
-  <td>2</td>
-  <td>121</td>
-  <td>97%</td>
-</tr>
+              <td>Christian McCaffrey (RB)</td>
+              <td>32.8</td>
+              <td>3</td>
+              <td>187</td>
+              <td>99%</td>
+            </tr>
+            <tr>
+              <td>Tyreek Hill (WR)</td>
+              <td>28.4</td>
+              <td>2</td>
+              <td>164</td>
+              <td>98%</td>
+            </tr>
+            <tr>
+              <td>Josh Allen (QB)</td>
+              <td>30.6</td>
+              <td>4</td>
+              <td>312</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>Travis Kelce (TE)</td>
+              <td>24.1</td>
+              <td>2</td>
+              <td>121</td>
+              <td>97%</td>
+            </tr>
           </tbody>
         </table>
       </div>
     </section>
 
-    <!-- Top Team Performances -->
     <section class="performances container" aria-labelledby="team-heading">
-      <h2 id="team-heading" class="section-title small-title">Top Team<br/>Performances</h2>
+      <h2 id="team-heading" class="section-title small-title">Top Team<br>Performances</h2>
 
-      <div class="table-wrap">
-        <table class="perf-table" summary="Top team performance metrics">
-     
+      <div class="table-wrap" aria-label="Top team performances table scroll region">
+        <table class="perf-table">
           <thead>
             <tr>
               <th scope="col">Team</th>
@@ -103,43 +91,43 @@
           </thead>
           <tbody>
             <tr>
-  <td>San Francisco 49ers</td>
-  <td>142.6</td>
-  <td>5</td>
-  <td>468</td>
-  <td>100%</td>
-</tr>
-<tr>
-  <td>Miami Dolphins</td>
-  <td>137.4</td>
-  <td>4</td>
-  <td>512</td>
-  <td>100%</td>
-</tr>
-<tr>
-  <td>Buffalo Bills</td>
-  <td>129.8</td>
-  <td>4</td>
-  <td>441</td>
-  <td>100%</td>
-</tr>
-<tr>
-  <td>Dallas Cowboys</td>
-  <td>124.3</td>
-  <td>3</td>
-  <td>398</td>
-  <td>100%</td>
-</tr>
-</table>
+              <td>San Francisco 49ers</td>
+              <td>142.6</td>
+              <td>5</td>
+              <td>468</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>Miami Dolphins</td>
+              <td>137.4</td>
+              <td>4</td>
+              <td>512</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>Buffalo Bills</td>
+              <td>129.8</td>
+              <td>4</td>
+              <td>441</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>Dallas Cowboys</td>
+              <td>124.3</td>
+              <td>3</td>
+              <td>398</td>
+              <td>100%</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
   </main>
 
-  <!-- SITE FOOTER -->
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <strong></strong>
+        <strong>Fast Fantasy</strong>
         <p class="small">© 2026 Fast Fantasy</p>
       </div>
 
